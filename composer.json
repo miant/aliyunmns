@@ -1,0 +1,26 @@
+{
+    "name": "miant/aliyunmns",
+    "description": "AliyunMNS SDK for php",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "muliangliang",
+            "email": "mliangs@163.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "AliyunMNS\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "AliyunMNS\\ServiceProvider"
+            ]
+        }
+    }
+}
